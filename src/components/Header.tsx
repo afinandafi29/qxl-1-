@@ -332,17 +332,14 @@ export default function Header() {
               {['Bengaluru', 'Delhi NCR'].map((cityKey) => {
                 const isExpanded = expandedCity === cityKey;
                 const cityBranches = (branches.length > 0 ? branches : [
-                  { id: "loc-1", name: "QXL Diagnostics Main Lab (Kengeri)", city: "Bengaluru" },
-                  { id: "loc-2", name: "QXL Diagnostics North Hub (Yelahanka)", city: "Bengaluru" },
-                  { id: "loc-3", name: "Qxl @ KR Market", city: "Bengaluru" },
-                  { id: "loc-4", name: "QXL @ ASTRIO", city: "Bengaluru" },
-                  { id: "loc-5", name: "QXL @ Dayanand Nagar", city: "Bengaluru" },
-                  { id: "loc-6", name: "QXL @ Spandana Hospital", city: "Bengaluru" },
-                  { id: "loc-7", name: "QXL @ Brains Hospital", city: "Bengaluru" },
-                  { id: "loc-8", name: "QXL @ Kengeri", city: "Bengaluru" },
-                  { id: "loc-9", name: "QXL @ NANADHI", city: "Bengaluru" },
-                  { id: "loc-10", name: "QXL @ North City", city: "Bengaluru" },
-                  { id: "loc-11", name: "QXL @ Sushrusha Hospital", city: "Bengaluru" },
+                  { id: "loc-1", name: "Kengeri – QXL Diagnostics Super Speciality Reference Laboratory (NABL Accredited)", city: "Bengaluru" },
+                  { id: "loc-2", name: "Nayandahalli (Mysuru Road) – Spandana Hospital, Powered by QXL Diagnostics", city: "Bengaluru" },
+                  { id: "loc-3", name: "Nagarabhavi – Astrio Multispeciality Hospital, Powered by QXL Diagnostics", city: "Bengaluru" },
+                  { id: "loc-4", name: "Chandra Layout – Nandi Diagnostics, Powered by QXL Diagnostics", city: "Bengaluru" },
+                  { id: "loc-5", name: "Yelahanka Old Town – Shushrusha Hospital, Powered by QXL Diagnostics", city: "Bengaluru" },
+                  { id: "loc-6", name: "Yelahanka (Galleria Mall) – North City Specialities Powered by QXL Diagnostics (NABL Accredited)", city: "Bengaluru" },
+                  { id: "loc-7", name: "Sanjaynagar – Nisarga Diagnostics, Powered by QXL Diagnostics", city: "Bengaluru" },
+                  { id: "loc-8", name: "Vidyaranyapura – Dr. Abhi Kollur's Clinic, Powered by QXL Diagnostics", city: "Bengaluru" },
                   { id: "loc-12", name: "QXL Diagnostics Delhi NCR", city: "Delhi NCR" }
                 ]).filter((b: any) => (b.city || "Bengaluru").toLowerCase() === cityKey.toLowerCase());
                 
