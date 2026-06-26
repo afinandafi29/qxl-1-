@@ -595,6 +595,7 @@ export default function Home() {
 
   const slides = [
     {
+      imageOnly: false,
       badge: "FRANCHISE OPPORTUNITY",
       title: "Own a Franchise or Collaborate with",
       titleAccent: "India's Leading Diagnostics Brand",
